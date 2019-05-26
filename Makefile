@@ -9,7 +9,7 @@ SRC_FILES := main.cpp
 all :$(target)  
 
 $(target): 
-	$(CC) -o $@ $(SRC_FILES) $(CFLAGS) $(LDFLAGS)  
+	$(CC) -g -o $@ $(SRC_FILES) $(CFLAGS) $(LDFLAGS)
 
 clean :    
 	@rm -rf *.o *~
